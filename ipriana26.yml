@@ -1,0 +1,174 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Melita
+    last_name: Young
+    
+    # Define yourself in 4-5 words
+    motto: I'm a disciplined person
+    
+    # Focus
+    focus: Learning new programing skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a professional in the Administrative and Accounting field. 
+      High expirience working with taxes and company organization with good skills in computers.
+      
+      My native language is Spanish and I speak professional English and Italian (basic level).
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: mymy@a.com
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ipriana26
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/ipriana26, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Basic level
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Sport
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Business Administration
+      university: University of Venezuela
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 1990 - 1995
+      details: |
+        All about how administrate a business in all their status.  
+        Be able to achieve the job complete on time to deal with goverment.
+        Be able to create a good administrative team in the best enviroment.
+        Be able to work with the accountants to complete all the accounting progress every fiscal year
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Administration Manager
+      time: 2018 - Present
+      company: STY Services, Pennsylvania
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Supervising the administrative department, making sure the work is completed on time and
+        our customers are satisfied with the accounting and administrative services we provide, especially
+        when is about taking care of their taxes.
+        
+          - Bullet point
+          - Bullet point
+
+    - role: Operation Manager
+      time: 1998 - 2018
+      company: Grupo Bensherman, Venezuela/London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In charge of the organization of 22 stores around the Country with 257 employees,
+        ALso, responsible for merchandise supply in store,workers schedule and payroll.
+        Administrative control making sure all goverment requirement was completed and 
+        well done every end of the month.  Traveling often to supervise each store and
+        prepare monthly report.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Office (word, excel, power point)
+        level: 90%
+
+      - name: Quickbook
+        level: 70%
+        
